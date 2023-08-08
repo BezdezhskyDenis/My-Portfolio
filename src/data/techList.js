@@ -1,46 +1,46 @@
 export const techList = [
   {
     title: "HTML",
-    src: "../../src/pic/html-5.svg",
+    src: "./src/data/pic/html-5.svg",
   },
   {
     title: "Bootstrap",
-    src: "../../src/pic/Bootstrap.svg",
+    src: "./src/data/pic/Bootstrap.svg",
   },
   {
     title: "CSS",
-    src: "../../src/pic/css-3.svg",
+    src: "./src/data/pic/css-3.svg",
   },
   {
     title: "GIT",
-    src: "../../src/pic/git.svg",
+    src: "./src/data/pic/git.svg",
   },
   {
     title: "GitHub",
-    src: "../../src/pic/github.svg",
+    src: "./src/data/pic/github.svg",
   },
   {
     title: "JavaScript",
-    src: "../../src/pic/javascript.svg",
+    src: "./src/data/pic/javascript.svg",
   },
   {
     title: "Node.Js",
-    src: "../../src/pic/node-js.svg",
+    src: "./src/data/pic/node-js.svg",
   },
   {
     title: "React",
-    src: "../../src/pic/react.svg",
+    src: "./src/data/pic/react.svg",
   },
   {
     title: "Sass",
-    src: "../../src/pic/sass.svg",
+    src: "./src/data/pic/sass.svg",
   },
   {
     title: "TypeScript",
-    src: "../../src/pic/typescript.svg",
+    src: "./src/data/pic/typescript.svg",
   },
   {
     title: "VsCode",
-    src: "../../src/pic/vscode.svg",
+    src: "./src/data/pic/vscode.svg",
   },
 ];
