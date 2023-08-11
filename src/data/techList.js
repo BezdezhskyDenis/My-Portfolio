@@ -1,46 +1,46 @@
 export const techList = [
   {
     title: "HTML",
-    src: "./src/data/pic/html-5.svg",
+    src: "./src/pic/html-5.svg",
   },
   {
     title: "Bootstrap",
-    src: "./src/data/pic/Bootstrap.svg",
+    src: "./src/pic/Bootstrap.svg",
   },
   {
     title: "CSS",
-    src: "./src/data/pic/css-3.svg",
+    src: "./src/pic/css-3.svg",
   },
   {
     title: "GIT",
-    src: "./src/data/pic/git.svg",
+    src: "./src/pic/git.svg",
   },
   {
     title: "GitHub",
-    src: "./src/data/pic/github.svg",
+    src: "./src/pic/github.svg",
   },
   {
     title: "JavaScript",
-    src: "./src/data/pic/javascript.svg",
+    src: "./src/pic/javascript.svg",
   },
   {
     title: "Node.Js",
-    src: "./src/data/pic/node-js.svg",
+    src: "./src/pic/node-js.svg",
   },
   {
     title: "React",
-    src: "./src/data/pic/react.svg",
+    src: "./src/pic/react.svg",
   },
   {
     title: "Sass",
-    src: "./src/data/pic/sass.svg",
+    src: "./src/pic/sass.svg",
   },
   {
     title: "TypeScript",
-    src: "./src/data/pic/typescript.svg",
+    src: "./src/pic/typescript.svg",
   },
   {
     title: "VsCode",
-    src: "./src/data/pic/vscode.svg",
+    src: "./src/pic/vscode.svg",
   },
 ];

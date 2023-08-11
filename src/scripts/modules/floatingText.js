@@ -7,7 +7,7 @@ let split1 = new SplitText(text1);
 function buildText() {
   $(split.chars).each(function (i) {
     TweenMax.from($(this), 2.5, {
-      opacity: split1.chars[i].style.opacity,
+      opacity: split1.chars[i].style.opacity ,
       x: split1.chars[i]._gsTransform.x,
       y: split1.chars[i]._gsTransform.y,
       z: split1.chars[i]._gsTransform.z,

@@ -8,8 +8,8 @@ function cardCreator(){
     const cardsContainer = div(null,"row mx-2")
 
     for(let key of projectList){
-        const cardItem = div(null, "col-lg-4 col-md-6 col-sm-8 col-10 mt-4 mx-auto text-center")
-        const card = div(null, "card")
+        const cardItem = div(null, "col-lg-4 col-md-6 col-sm-8 col-10 mt-4 p-5 mx-auto text-center")
+        const card = div(null, "card h-100")
         const cardImg = img(key.src, "card-img-top p-4", key.alt)
         const cardBody = div(null, "card-body")
         const cardTitle = `<h5 class="card-title">${key.title}</h5>`

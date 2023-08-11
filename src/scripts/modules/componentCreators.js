@@ -47,3 +47,10 @@ export  function aHyperLink(href, classList, target, text) {
   
     return aHyperLink;
   }
+
+  export function insert(classList){
+    const insert = document.createElement("i")
+    insert.classList = classList
+
+    return insert
+  }

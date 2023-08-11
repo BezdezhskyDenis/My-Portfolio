@@ -40,6 +40,7 @@
   </head>
   <body>
     <header>
+      
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid m-2">
           <a class="navbar-brand" href="#">
@@ -81,7 +82,7 @@
                   <a
                     class="nav-link btn btn-light border rounded-pill m-2 active"
                     aria-current="page"
-                    href="#"
+                    href="#mtProjects"
                     >Projects</a
                   >
                 </li>
@@ -89,7 +90,7 @@
                   <a
                     class="nav-link btn btn-light border rounded-pill m-2 active"
                     aria-current="page"
-                    href="#"
+                    href="#aboutMe"
                     >About Me</a
                   >
                 </li>
@@ -120,29 +121,28 @@
           <div class="aboutText col-8" id="aboutText">
             <div class="box hide" name="hide-on-start">
               <h1 class="split-header">About me!</h1>
-              <p class="split-text fs-3">
-                Passionate full-stack developer experienced in TypeScript and Node.js. Skilled in front-end frameworks like React, as well as server-side technologies like Node.js . Detail-oriented problem solver with a focus on user experience, performance, and collaboration. Lifelong learner embracing emerging technologies and user-centered design principles. Let's build something extraordinary!
-              </p>
+              <p class="split-text fs-3">Passionate full-stack developer experienced in TypeScript and Node.js. Skilled in front-end frameworks like React, as well as server-side technologies like Node.js . Detail-oriented problem solver with a focus on user experience, performance, and collaboration. Lifelong learner embracing emerging technologies and user-centered design principles. Let's build something extraordinary!</p>
             </div>
             <div class="box" name="show-on-start">
-              <p class="split1 fs-3">
-                Passionate full-stack developer experienced in TypeScript and Node.js. Skilled in front-end frameworks like React, as well as server-side technologies like Node.js . Detail-oriented problem solver with a focus on user experience, performance, and collaboration. Lifelong learner embracing emerging technologies and user-centered design principles. Let's build something extraordinary!
-              </p>
+              <p class="split1 fs-3">Passionate full-stack developer experienced in TypeScript and Node.js. Skilled in front-end frameworks like React, as well as server-side technologies like Node.js . Detail-oriented problem solver with a focus on user experience, performance, and collaboration. Lifelong learner embracing emerging technologies and user-centered design principles. Let's build something extraordinary!</p>
             </div>
           </div>
         </div>
-        <div class="techTemplate">
+        <div class="techTemplate" id="usedTechnology">
           <div class="text-center fs-1 mt-5 mb-4">Used Technology</div>
-          <div id="usedTechnology" class="container text-center text-white align-items-center"></div>
+          <div
+            id="usedTechnology"
+            class="container text-center text-white align-items-center"
+          ></div>
         </div>
-        <div class="cardTemplate">
-          <div class="text-center fs-1 mt-5 mb-4">My Projects</div>
-
+        <div class="cardTemplate" id="mtProjects">
+          <div class="text-center fs-1 mt-5 mb-4 pt-5" >My Projects</div>
         </div>
       </div>
     </main>
     <bottom>
-      <div class="bottom" id="bottom"></div>
+      <div class="footer" id="footer">
+      </div>
     </bottom>
   </body>
 </html>
