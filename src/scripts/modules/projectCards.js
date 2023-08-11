@@ -16,10 +16,12 @@ function cardCreator(){
         const cardDescription = paragraph(key.description, "card-text")
         const cardProjectButton = aHyperLink(key.projectLink, "btn btn-secondary w-50 m-2 rounded-pill", "_blank", "Try Me")
         const cardGitHubButton = aHyperLink(key.GitHubLink, "btn btn-secondary w-50 m-2 rounded-pill", "_blank", "GitHub Repo")
+        const cardDownloadButton = aHyperLink(key.downloadLink, "btn btn-secondary w-50 m-2 rounded-pill", "_blank", "Download App")
         cardBody.innerHTML = cardTitle
         cardBody.appendChild(cardDescription)
         cardBody.appendChild(cardProjectButton)
         cardBody.appendChild(cardGitHubButton)
+        cardBody.appendChild(cardDownloadButton)
         card.appendChild(cardImg)
         card.appendChild(cardBody)
         cardItem.appendChild(card)
