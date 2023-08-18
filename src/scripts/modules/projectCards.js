@@ -35,5 +35,5 @@ function cardCreator(){
 }cardCreator()
 
 function projectPage(){
-    window.open(`/projectPage.html#${this.id}`, "_blank");
+    window.open(`projectPage.html#${this.id}`, "_blank");
 }
