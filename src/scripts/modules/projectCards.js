@@ -23,7 +23,11 @@ function cardCreator(){
         card.appendChild(cardBody)
         cardItem.appendChild(card)
         cardsContainer.appendChild(cardItem)
-        cardProjectButton.addEventListener("click", projectPage)
+        if (key.projectLink) {
+            cardProjectButton.addEventListener("click", projectPage)
+        } else{
+            cardProjectButton.classList.add("disabled") 
+        }
     }
     cardTemplate[0].append(cardsContainer)
 
