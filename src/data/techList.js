@@ -7,7 +7,7 @@ export const techList = [
   {
     id: 2,
     title: "Bootstrap",
-    src: "./src/pic/Bootstrap.svg",
+    src: "./src/pic/bootstrap.svg",
   },
   {
     id: 3,
