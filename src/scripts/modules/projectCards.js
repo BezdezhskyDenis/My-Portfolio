@@ -14,18 +14,22 @@ function cardCreator(){
         const cardBody = div(null, "card-body")
         const cardTitle = `<h5 class="card-title">${key.title}</h5>`
         const cardDescription = paragraph(key.description, "card-text")
-        const cardProjectButton = aHyperLink(key.projectLink, "btn btn-secondary w-50 m-2 rounded-pill", "_blank", "Try Me")
-        const cardGitHubButton = aHyperLink(key.GitHubLink, "btn btn-secondary w-50 m-2 rounded-pill", "_blank", "GitHub Repo")
-        const cardDownloadButton = aHyperLink(key.downloadLink, "btn btn-secondary w-50 m-2 rounded-pill", "_blank", "Download App")
+        // const cardProjectButton = aHyperLink(key.projectLink, "btn btn-secondary w-50 m-2 rounded-pill", "_blank", "Try Me")
+        const cardProjectButton = aHyperLink(null, "btn btn-secondary w-50 m-2 rounded-pill", "_blank", `Open "${key.title}" project page`, key.id)
         cardBody.innerHTML = cardTitle
         cardBody.appendChild(cardDescription)
         cardBody.appendChild(cardProjectButton)
-        cardBody.appendChild(cardGitHubButton)
-        cardBody.appendChild(cardDownloadButton)
         card.appendChild(cardImg)
         card.appendChild(cardBody)
         cardItem.appendChild(card)
         cardsContainer.appendChild(cardItem)
+        cardProjectButton.addEventListener("click", projectPage)
     }
     cardTemplate[0].append(cardsContainer)
+
+
 }cardCreator()
+
+function projectPage(){
+    window.open(`/projectPage.html#${this.id}`, "_blank");
+}

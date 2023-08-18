@@ -38,13 +38,13 @@ export  function paragraph(text, classList) {
     return paragraph;
   }
    //function create new a tag
-export  function aHyperLink(href, classList, target, text) {
+export  function aHyperLink(href, classList, target, text, id) {
     const aHyperLink = document.createElement("a");
     classList ? (aHyperLink.classList = classList) : "";
     href ? (aHyperLink.href = href) : null;
     target ? (aHyperLink.target = target) : "";
     text ? (aHyperLink.innerText = text) : "";
-  
+    id ? (aHyperLink.id = id) : null
     return aHyperLink;
   }
 
@@ -53,4 +53,12 @@ export  function aHyperLink(href, classList, target, text) {
     insert.classList = classList
 
     return insert
+  }
+
+  export function button(id, classList, link, params){
+    const button = document.createElement("button")
+    id ? (button.id = id) : null;
+    classList ? (button.classList = classList) : "";
+    
+    return button
   }

@@ -18,31 +18,27 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="./src/style/style.css" />
-    <script
-      type="text/javascript"
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js"
-    ></script>
+    <link rel="stylesheet" href="./src/style/project-page-style.css" />
     <script
       type="text/javascript"
       defer
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
     ></script>
-    <script
-      type="text/javascript"
-      defer
-      src="./src/scripts/modules/SplitText.min.js"
-    ></script>
-    <script type="module" src="./src/scripts/script.js"></script>
-
-    <title>Denis CV Home Page</title>
+    <!-- <script type="module" src="./src/scripts/script.js"></script> -->
+    <script type="module" src="./src/scripts/projectPage.js"></script>
+    <title>Project Page</title>
   </head>
   <body>
     <header>
-      
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
         <div class="container-fluid m-2">
+          <div class="picture col-4">
+            <img
+              src="./src/pic/Denis_profile.png"
+              alt="Profile picture"
+              class="profile-pic"
+            />
+          </div>
           <a class="navbar-brand" href="#">
             <i class="nav-link active text-wrap fs-2"> Denis Bezdezhsky </i>
           </a>
@@ -65,9 +61,6 @@
             aria-labelledby="offcanvasNavbarLabel"
           >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Offcanvas
-              </h5>
               <button
                 type="button"
                 class="btn-close"
@@ -82,15 +75,15 @@
                   <a
                     class="nav-link btn btn-light border rounded-pill m-2 active"
                     aria-current="page"
-                    href="#mtProjects"
-                    >Projects</a
+                    href="/"
+                    >main</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
                     class="nav-link btn btn-light border rounded-pill m-2 active"
                     aria-current="page"
-                    href="#aboutText"
+                    href="/#aboutMe"
                     >About Me</a
                   >
                 </li>
@@ -109,40 +102,10 @@
       </nav>
     </header>
     <main>
-      <div class="main" id="main">
-        <div class="about row" id="about-div">
-          <div class="picture col-4">
-            <img
-              src="./src/pic/Denis_profile.png"
-              alt="Profile picture"
-              class="profile-pic"
-            />
-          </div>
-          <div class="aboutText col-8" id="aboutText">
-            <div class="box hide" name="hide-on-start">
-              <h1 class="split-header">About me!</h1>
-              <p class="split-text fs-3">Passionate full-stack developer experienced in TypeScript and Node.js. Skilled in front-end frameworks like React, as well as server-side technologies like Node.js . Detail-oriented problem solver with a focus on user experience, performance, and collaboration. Lifelong learner embracing emerging technologies and user-centered design principles. Let's build something extraordinary!</p>
-            </div>
-            <div class="box" name="show-on-start">
-              <p class="split1 fs-3">Passionate full-stack developer experienced in TypeScript and Node.js. Skilled in front-end frameworks like React, as well as server-side technologies like Node.js . Detail-oriented problem solver with a focus on user experience, performance, and collaboration. Lifelong learner embracing emerging technologies and user-centered design principles. Let's build something extraordinary!</p>
-            </div>
-          </div>
-        </div>
-        <div class="techTemplate" id="usedTechnology">
-          <div class="text-center fs-1 mt-5 mb-4">Used Technology</div>
-          <div
-            id="usedTechnology"
-            class="container text-center text-white align-items-center"
-          ></div>
-        </div>
-        <div class="cardTemplate" id="mtProjects">
-          <div class="text-center fs-1 mt-5 mb-4 pt-5" >My Projects</div>
-        </div>
-      </div>
+      <div class="main" id="main"></div>
     </main>
     <bottom>
-      <div class="footer" id="footer">
-      </div>
+      <div class="footer" id="footer"></div>
     </bottom>
   </body>
 </html>
