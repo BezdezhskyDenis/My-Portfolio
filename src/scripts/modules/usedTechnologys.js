@@ -3,7 +3,7 @@ import { techList } from "../../data/techList.js";
 
 export function technologiesBlocks(props = []) {
   const usedTechnology = document.getElementById("usedTechnology");
-  const technologyPattern = div(null, "row");
+  const technologyPattern = div(null, "row mx-5 justify-items-center");
   let newTechList = techList;
   if (props.length > 0) {
     newTechList = [];
@@ -13,7 +13,7 @@ export function technologiesBlocks(props = []) {
     }
   }
   for (let key of newTechList) {
-    const technologyBlock = div(null, "col-md-auto tech-container text-center");
+    const technologyBlock = div(null, "col-md-auto tech-container text-center mx-auto");
     const technologyImg = img(key.src, "m-2 tech-img", key.title);
     const technologyTitle = paragraph(key.title, "tech-p");
     technologyBlock.appendChild(technologyImg);

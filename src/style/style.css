@@ -44,6 +44,10 @@ html {
   .aboutText p {
     font-size: 1.2rem !important;
   }
+  .about {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }
 html:not([data-scroll="0"]) .profile-pic {
   position: relative;

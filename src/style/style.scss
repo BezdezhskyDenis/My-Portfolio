@@ -48,6 +48,11 @@ html {
       }
     }
   
+    .about {
+      
+      height: fit-content;
+      
+    }    
 }
 
 html:not([data-scroll="0"]) {
