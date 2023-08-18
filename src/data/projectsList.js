@@ -24,7 +24,7 @@ export const projectList = [
     {
         id:"SSG",
         title: "Simon say game",
-        src:"./src/pic/simon-say-Game.png",
+        src:"./src/pic/simon-say-game.png",
         alt:"Do what Simon say",
         description:"This game is from my first project's when I start learn JS",
         projectLink:"https://bezdezhskydenis.github.io/Simon-Game/",

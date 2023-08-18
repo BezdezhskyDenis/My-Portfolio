@@ -93,7 +93,6 @@ html:not([data-scroll="0"]) .navbar-brand {
 .about {
   position: relative;
   height: 115vh;
-  background-color: lightgray;
 }
 .about .aboutText h1 {
   padding-top: 40%;
